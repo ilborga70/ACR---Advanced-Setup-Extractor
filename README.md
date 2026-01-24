@@ -1,4 +1,4 @@
-# Changelog - ACR Advanced Setup Extractor
+# Changelog v1.0
 
 Comprehensive log of recent updates to the extraction logic and export layout.
 
