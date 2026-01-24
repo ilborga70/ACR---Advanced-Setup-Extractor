@@ -2,7 +2,7 @@
 
 Comprehensive log of recent updates to the extraction logic and export layout.
 
-## [1.0.0] - 2026-01-24
+## 2026-01-24
 
 ### 🛠 Technical Fixes (Core Engine)
 - **Single Selection Fix**: Resolved a critical bug where selecting only one setup from the list caused the application to crash. The system now correctly handles data as an array regardless of the number of items.
