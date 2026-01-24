@@ -1,10 +1,37 @@
-# ACR - Advanced Setup Extractor
+# Changelog - ACR Advanced Setup Extractor
+
+Comprehensive log of recent updates to the extraction logic and export layout.
+
+## [1.0.0] - 2026-01-24
+
+### 🛠 Technical Fixes (Core Engine)
+- **Single Selection Fix**: Resolved a critical bug where selecting only one setup from the list caused the application to crash. The system now correctly handles data as an array regardless of the number of items.
+- **Method Call Error Resolved**: Fixed the `MethodNotFound` error related to `WriteTable`, which previously caused the GUI button to fail.
+- **Deep Scan Optimization**: Enhanced the reading function to accurately capture numerical values even when they appear on the line following the parameter label in the `.sav` file.
+
+### 📊 HTML Export (Professional Layout)
+- **New 3-Column Structure**: Updated the export layout to reflect a professional comparative format: **Parameter | Front (FL/FR) | Rear (RL/RR)**.
+- **Complete Parameter Mapping**: Automatic extraction and organization of:
+  - **Chassis & Suspensions**: Tire pressure, Camber, Toe, Springs, ARB, and damper transitions.
+  - **Drivetrain & Electronics**: Gear sets, differentials (Center/Front/Rear), ABS, and TCS.
+  - **Braking System**: Discs, calipers, pads, brake bias, and handbrake force.
+- **Technical Units**: Automatically appends professional units of measurement (PSI, N/m, °, m) to raw data for improved readability.
+
+### 🎨 Interface & Styling
+- **Google Sites Ready**: The generated HTML file is now fully compatible with the aesthetic requirements of Google Sites.
+- **Graphic Restyling**: 
+  - Section headers in **Red (#d32f2f)** and **Blue (#1976d2)**.
+  - Implemented card-style containers with shadows and rounded corners.
+  - Red bold highlighting for electronic systems (ABS/TCS).
+- **Video Integration**: Added a 16:9 black `video-placeholder` to allow users to easily paste their YouTube embed codes.
+
+---
 
 **Unlock your Assetto Corsa Rally setup data.** A standalone utility designed to extract, decode, and organize car setup parameters from `CarSetupsDataSaveSlot.sav` files, even when standard parsers fail.
 
 ![Version](https://img.shields.io/badge/version-1.0-blue) ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 
-## <img width="728" height="635" alt="ACR - Advanced Setup Extractor" src="https://github.com/user-attachments/assets/726b4d15-429c-4ba3-bd44-698c1587de24" />
+## <img width="2560" height="1080" alt="ACR - Advanced Setup Extractor v1 0 0 0" src="https://github.com/user-attachments/assets/36f1cfa5-369f-4697-af01-bc8995932006" />
 
 ## 🏎️ What is it?
 
