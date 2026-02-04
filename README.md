@@ -1,29 +1,44 @@
-# Changelog v1.0
+# 📄 ACR - Advanced Setup Extractor
 
-Comprehensive log of recent updates to the extraction logic and export layout.
+### ✨ New Features [1.2.0] - 2026-02-04
+* **Video Embed Dialog:** Introduced a new popup window (`Show-VideoInputDialog`) that automatically appears for each selected setup during export.
+* Allows pasting specific YouTube `<iframe>` embed code for each Car/Track combination.
+* If left empty, the system handles it gracefully.
+* **Video Integration in Report:** The HTML report now dynamically renders the video section:
+* **With Code:** Displays the video in a responsive 16:9 player.
+* **Without Code:** Displays a stylish placeholder labeled `[ NO VIDEO AVAILABLE ]`.
 
-## 2026-01-24
+### 🌍 Localization
+* **English Report:** The entire HTML output has been translated from Italian to Professional English (Sim Racing Terminology).
+* *Examples:* "Meccanica" → "Chassis & Suspensions", "Cambio" → "Gearbox", "Molle" → "Spring Stiffness".
+* **International Formatting:** Labels and headers have been adapted for an international audience.
+
+### 🎨 UI/UX Improvements
+* **Responsive Video CSS:** Added CSS classes (`.video-container`, `.video-placeholder`) to ensure videos maintain the correct aspect ratio and do not break the layout on smaller screens.
+* **Code Cleanup:** Resolved previous syntax conflicts; the script is now a single, clean block free of bracket errors.
+
+## [1.0.0] - 2026-01-24
 
 ### 🛠 Technical Fixes (Core Engine)
-- **Single Selection Fix**: Resolved a critical bug where selecting only one setup from the list caused the application to crash. The system now correctly handles data as an array regardless of the number of items.
-- **Method Call Error Resolved**: Fixed the `MethodNotFound` error related to `WriteTable`, which previously caused the GUI button to fail.
+- **Single Selection Fix**: Resolved a critical bug where selecting only one setup from the list caused the application to crash. [cite_start]The system now correctly handles data as an array regardless of the number of items[cite: 1].
+- [cite_start]**Method Call Error Resolved**: Fixed the `MethodNotFound` error related to `WriteTable`, which previously caused the GUI button to fail[cite: 1].
 - **Deep Scan Optimization**: Enhanced the reading function to accurately capture numerical values even when they appear on the line following the parameter label in the `.sav` file.
 
 ### 📊 HTML Export (Professional Layout)
-- **New 3-Column Structure**: Updated the export layout to reflect a professional comparative format: **Parameter | Front (FL/FR) | Rear (RL/RR)**.
+- **New 3-Column Structure**: Updated the export layout to reflect a professional comparative format: **Parameter | Front (FL/FR) | [cite_start]Rear (RL/RR)**.
 - **Complete Parameter Mapping**: Automatic extraction and organization of:
-  - **Chassis & Suspensions**: Tire pressure, Camber, Toe, Springs, ARB, and damper transitions.
-  - **Drivetrain & Electronics**: Gear sets, differentials (Center/Front/Rear), ABS, and TCS.
-  - **Braking System**: Discs, calipers, pads, brake bias, and handbrake force.
-- **Technical Units**: Automatically appends professional units of measurement (PSI, N/m, °, m) to raw data for improved readability.
+  - [cite_start]**Chassis & Suspensions**: Tire pressure, Camber, Toe, Springs, ARB, and damper transitions.
+  - [cite_start]**Drivetrain & Electronics**: Gear sets, differentials (Center/Front/Rear), ABS, and TCS.
+  - [cite_start]**Braking System**: Discs, calipers, pads, brake bias, and handbrake force.
+- [cite_start]**Technical Units**: Automatically appends professional units of measurement (PSI, N/m, °, m) to raw data for improved readability.
 
 ### 🎨 Interface & Styling
-- **Google Sites Ready**: The generated HTML file is now fully compatible with the aesthetic requirements of Google Sites.
+- [cite_start]**Google Sites Ready**: The generated HTML file is now fully compatible with the aesthetic requirements of Google Sites[cite: 2, 3].
 - **Graphic Restyling**: 
-  - Section headers in **Red (#d32f2f)** and **Blue (#1976d2)**.
-  - Implemented card-style containers with shadows and rounded corners.
-  - Red bold highlighting for electronic systems (ABS/TCS).
-- **Video Integration**: Added a 16:9 black `video-placeholder` to allow users to easily paste their YouTube embed codes.
+  - [cite_start]Section headers in **Red (#d32f2f)** and **Blue (#1976d2)**[cite: 3, 4].
+  - [cite_start]Implemented card-style containers with shadows and rounded corners[cite: 3, 4].
+  - [cite_start]Red bold highlighting for electronic systems (ABS/TCS)[cite: 3, 4].
+- [cite_start]**Video Integration**: Added a 16:9 black `video-placeholder` to allow users to easily paste their YouTube embed codes[cite: 3, 4].
 
 ---
 
@@ -31,7 +46,7 @@ Comprehensive log of recent updates to the extraction logic and export layout.
 
 ![Version](https://img.shields.io/badge/version-1.0-blue) ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 
-## <img width="2560" height="1080" alt="ACR - Advanced Setup Extractor v1 0 0 0" src="https://github.com/user-attachments/assets/36f1cfa5-369f-4697-af01-bc8995932006" />
+## <img width="728" height="635" alt="ACR - Advanced Setup Extractor" src="https://github.com/user-attachments/assets/726b4d15-429c-4ba3-bd44-698c1587de24" />
 
 ## 🏎️ What is it?
 
