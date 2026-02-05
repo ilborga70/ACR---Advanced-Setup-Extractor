@@ -1,4 +1,18 @@
-# 📄 ACR - Advanced Setup Extractor
+### ✨ New Features [1.5.0] - 2026-02-05 
+* The interface has been fully modernized with a cohesive dark theme, improved readability, and a more polished visual identity across all components.
+* Key Enhancements
+* Full Dark Theme — Unified dark background with professional gradient accents for depth and visual balance.
+* Modern Color Palette — Refined combination of deep grays and professional blue highlights for a clean, contemporary look.
+* Flat Design Buttons — Borderless buttons with smooth hover effects to improve clarity and interaction feedback.
+* Dark-Themed Textboxes — High‑contrast text fields with dark backgrounds and light text for optimal readability.
+* Improved Typography — Adoption of Segoe UI for a modern, consistent, and highly legible interface.
+* Status Bar Added — New bottom status bar providing real‑time operational feedback.
+* Refined Borders and Shadows — Subtle visual separation and depth without clutter.
+* Consistent Dialog Styling — All dialog windows now follow the same dark theme for a unified user experience.
+* Enhanced HTML Output — Updated HTML templates featuring dark mode styling and gradient elements.
+* Improved Visual Feedback — Clearer indicators during operations for better user awareness.
+
+<img width="2016" height="1078" alt="ACR - Advanced Setup Extractor v1 5 0" src="https://github.com/user-attachments/assets/1a3508fb-8dc4-4c41-9db0-6eea1f415aa9" />
 
 ### ✨ New Features [1.2.0] - 2026-02-04
 * **Video Embed Dialog:** Introduced a new popup window (`Show-VideoInputDialog`) that automatically appears for each selected setup during export.
@@ -45,8 +59,6 @@
 **Unlock your Assetto Corsa Rally setup data.** A standalone utility designed to extract, decode, and organize car setup parameters from `CarSetupsDataSaveSlot.sav` files, even when standard parsers fail.
 
 ![Version](https://img.shields.io/badge/version-1.0-blue) ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
-
-## <img width="728" height="635" alt="ACR - Advanced Setup Extractor" src="https://github.com/user-attachments/assets/726b4d15-429c-4ba3-bd44-698c1587de24" />
 
 ## 🏎️ What is it?
 
