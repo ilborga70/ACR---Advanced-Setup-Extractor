@@ -1,3 +1,23 @@
+### ✨ New Features [1.6.0] - 2026-02-06
+* Offline/Online Compatibility: Resolved; the script now runs seamlessly via both file:// and http:// protocols.
+* Clipboard API Fixes: Added a fallback mechanism for environments where modern APIs are unavailable.
+* Expanded Browser Support: Now compatible with legacy browsers lacking ES6+ features.
+* Full Offline Mode: Completely operational when opening the HTML file locally.
+* No HTTPS Required: Works in non-secure contexts where the Clipboard API might be restricted.
+*Cross-Platform: Tested and verified on Windows, macOS, iOS, and Android.
+* Performance Enhancements:
+* Reduced Codebase: Implementation is approximately 40% lighter.
+* Faster Execution: Immediate feedback with minimal latency.
+* Optimized Memory Management: Improved cleanup of temporary elements.
+* Key Features:
+* AI analysis prompt generation.
+* One-click copy to clipboard.
+* Direct links to AI platforms.
+* Manual copy fallback and console debugging logs.
+* Technical Specs: Uses ES5 syntax for maximum compatibility with no external dependencies.
+
+<img width="2500" height="909" alt="ACR - Advanced Setup Extractor v1 6 0" src="https://github.com/user-attachments/assets/523eeb88-619a-4090-a096-104478f34a1b" />
+
 ### ✨ New Features [1.5.0] - 2026-02-05 
 * The interface has been fully modernized with a cohesive dark theme, improved readability, and a more polished visual identity across all components.
 * Key Enhancements
