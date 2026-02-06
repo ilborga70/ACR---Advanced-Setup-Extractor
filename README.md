@@ -4,7 +4,7 @@
 * Expanded Browser Support: Now compatible with legacy browsers lacking ES6+ features.
 * Full Offline Mode: Completely operational when opening the HTML file locally.
 * No HTTPS Required: Works in non-secure contexts where the Clipboard API might be restricted.
-*Cross-Platform: Tested and verified on Windows, macOS, iOS, and Android.
+* Cross-Platform: Tested and verified on Windows, macOS, iOS, and Android.
 * Performance Enhancements:
 * Reduced Codebase: Implementation is approximately 40% lighter.
 * Faster Execution: Immediate feedback with minimal latency.
