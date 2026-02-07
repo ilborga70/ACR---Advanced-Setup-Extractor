@@ -276,10 +276,11 @@ document.addEventListener('DOMContentLoaded', function() {
                              'Analyze this specific setup and propose modifications: \n\n' +
                              'EXTRACTED DATA:\n' + setupData + '\n\n' +
                              'SPECIFIC REQUEST:\n' +
-                             '- Evaluate the balance between front and rear springs.\n' +
-                             '- Comment on the Camber (' + camberValue + ') and Brake Bias (' + brakeBiasValue + ') relative to the track.\n' +
-                             '- Suggest 3 concrete modifications to improve traction and corner rotation.\n' +
-                             'Respond in a technical, brief and direct manner.';
+                             '- Suggest 3 concrete modifications to improve traction and corner rotation in tarmac surfaces.\n' +
+                             '- Suggest 3 concrete modifications to improve traction and corner rotation in gravel surfaces.\n' +
+                             '- Suggest 3 concrete modifications to improve traction and corner rotation in snow surfaces.\n' +
+                             'Respond in a technical, brief and direct manner.\n' +
+                             'Translate first into Italian and then into English.';
             
             // Tenta di copiare negli appunti
             function copyToClipboard(text) {
@@ -543,7 +544,7 @@ function Analyze-Data($filePath, $textBoxOutput, $labelProgress) {
 # --- GUI ---
 
 $form = New-Object System.Windows.Forms.Form
-$form.Text = "ACR - Advanced Setup Extractor v1.6"
+$form.Text = "ACR - Advanced Setup Extractor v2.0"
 $form.Size = New-Object System.Drawing.Size(750, 650)
 $form.StartPosition = "CenterScreen"
 $form.BackColor = [System.Drawing.Color]::FromArgb(30, 30, 35)
