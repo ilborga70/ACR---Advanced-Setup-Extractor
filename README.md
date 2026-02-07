@@ -1,3 +1,13 @@
+### ✨ New Features [2.0.0] - 2026-02-07
+* **New Prompt AI:**
+* Act as a Chief Engineer specialized in Rally WRC.
+* Analyze this specific setup and propose modifications.
+* Suggest 3 concrete modifications to improve traction and corner rotation in tarmac surfaces.
+* Suggest 3 concrete modifications to improve traction and corner rotation in gravel surfaces.
+* Suggest 3 concrete modifications to improve traction and corner rotation in snow surfaces.
+* Respond in a technical, brief and direct manner.
+* Translate first into Italian and then into English.
+
 ### ✨ New Features [1.6.0] - 2026-02-06
 * Offline/Online Compatibility: Resolved; the script now runs seamlessly via both file:// and http:// protocols.
 * Clipboard API Fixes: Added a fallback mechanism for environments where modern APIs are unavailable.
