@@ -1,3 +1,18 @@
+### ✨ New Features [2.5.0] - 2026-02-08
+* **New Prompt AI:**
+* Act as Chief Engineer specializing in WRC Rally.
+* Analyze the technical setup provided and propose targeted modifications:
+* For each surface, suggest solutions that balance mechanical bite with dynamic agility.
+* Suggest 6 concrete modifications to optimize steering precision, cornering rotation, and traction on asphalt.
+* Suggest 6 concrete changes to improve “side bite” and rotation in fast sections on gravel.
+* Suggest 6 concrete changes to maximize stud penetration and balance on snow banks.
+* Include adjustments to camber, anti-roll bars, and differential maps.
+* Include adjustments to differential preload, shock absorber bump/rebound, and toe.
+* Include adjustments to ground clearance, spring flexibility, and brake distribution.
+* Respond in a technical, concise, and direct manner.
+* Translate first into Italian and then into English.
+<img width="2016" height="1078" alt="ACR - Advanced Setup Extractor v1 5 0" src="https://github.com/user-attachments/assets/1a3508fb-8dc4-4c41-9db0-6eea1f415aa9" />
+
 ### ✨ New Features [2.0.0] - 2026-02-07
 * **New Prompt AI:**
 * Act as a Chief Engineer specialized in Rally WRC.
@@ -26,8 +41,6 @@
 * Manual copy fallback and console debugging logs.
 * Technical Specs: Uses ES5 syntax for maximum compatibility with no external dependencies.
 
-<img width="2500" height="909" alt="ACR - Advanced Setup Extractor v1 6 0" src="https://github.com/user-attachments/assets/523eeb88-619a-4090-a096-104478f34a1b" />
-
 ### ✨ New Features [1.5.0] - 2026-02-05 
 * The interface has been fully modernized with a cohesive dark theme, improved readability, and a more polished visual identity across all components.
 * Key Enhancements
@@ -41,8 +54,6 @@
 * Consistent Dialog Styling — All dialog windows now follow the same dark theme for a unified user experience.
 * Enhanced HTML Output — Updated HTML templates featuring dark mode styling and gradient elements.
 * Improved Visual Feedback — Clearer indicators during operations for better user awareness.
-
-<img width="2016" height="1078" alt="ACR - Advanced Setup Extractor v1 5 0" src="https://github.com/user-attachments/assets/1a3508fb-8dc4-4c41-9db0-6eea1f415aa9" />
 
 ### ✨ New Features [1.2.0] - 2026-02-04
 * **Video Embed Dialog:** Introduced a new popup window (`Show-VideoInputDialog`) that automatically appears for each selected setup during export.
