@@ -1,3 +1,15 @@
+## ✨ New Features [3.0.0] - 2026-02-09
+### 🤖 Enhanced AI Prompting
+* **Advanced Vehicle Dynamics:** Integrated high-level engineering terminology, including **Low-Speed Compression** and **Fast-Rebound** damping.
+* **Frequency Analysis:** The AI now distinguishes between high-frequency inputs (bumps/potholes) and low-frequency chassis movements (body roll/pitch), which is critical for modern sim-racing physics engines.
+* **Physics-Driven Objectives:** Refocused optimization logic from generic "improve traction" to active **Weight Transfer management** and contact patch optimization.
+* **Data Precision & Units:** Instructions now mandate responses using standardized telemetry units (N/mm, degrees, clicks), ensuring suggestions are directly applicable to in-game setup menus.
+* **Specialized Setup Profiles:** Implementation of distinct engineering profiles based on real-world physics:
+* **Hillclimb:** Optimized for maximum mechanical grip, aerodynamic downforce, and instantaneous response.
+* **Versatile Rally:** Engineered for progressive compliance, bump absorption, and balanced stability across mixed stages.
+
+<img width="2016" height="1078" alt="ACR - Advanced Setup Extractor v1 5 0" src="https://github.com/user-attachments/assets/1a3508fb-8dc4-4c41-9db0-6eea1f415aa9" />
+
 ### ✨ New Features [2.5.0] - 2026-02-08
 * **New Prompt AI:**
 * Act as Chief Engineer specializing in WRC Rally.
@@ -11,7 +23,6 @@
 * Include adjustments to ground clearance, spring flexibility, and brake distribution.
 * Respond in a technical, concise, and direct manner.
 * Translate first into Italian and then into English.
-<img width="2016" height="1078" alt="ACR - Advanced Setup Extractor v1 5 0" src="https://github.com/user-attachments/assets/1a3508fb-8dc4-4c41-9db0-6eea1f415aa9" />
 
 ### ✨ New Features [2.0.0] - 2026-02-07
 * **New Prompt AI:**
