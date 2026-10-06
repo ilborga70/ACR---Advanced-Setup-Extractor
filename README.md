@@ -1,7 +1,5 @@
 # ACR - Advanced Setup Extractor
 
-## 🏎️ What is it?
-
 The **ACR - Advanced Setup Extractor** is a powerful tool for the *Assetto Corsa Rally* community. The game stores car setups in a complex, serialized format (GVAS) that often appears encrypted or compressed, making it impossible to read with standard text editors or generic save parsers.
 
 This tool uses a **Deep String Harvest (Brute Force)** method combined with **Smart Pattern Recognition** to bypass structure errors and retrieve 100% of the readable text data.
