@@ -1,4 +1,4 @@
-## ACR - Advanced Setup Extractor
+# ACR - Advanced Setup Extractor
 
 ## 🏎️ What is it?
 
