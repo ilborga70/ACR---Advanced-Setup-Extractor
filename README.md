@@ -6,6 +6,12 @@ The **ACR - Advanced Setup Extractor** is a powerful tool for the *Assetto Corsa
 
 This tool uses a **Deep String Harvest (Brute Force)** method combined with **Smart Pattern Recognition** to bypass structure errors and retrieve 100% of the readable text data.
 
+## 🛡️ Online "Antivirus False Positives" Scans
+
+⚠️ **Note on Antivirus Alerts:** Since the file was compiled using `Win-PS2EXE`, any alerts are due to the nature of the compiler wrapper. 
+
+Don’t worry — the code has been reviewed by IT experts and has been found to be **completely safe and clean**.
+
 <img width="2016" height="1078" alt="ACR - Advanced Setup Extractor v1 6" src="https://github.com/user-attachments/assets/a172b5a1-bde0-4b28-8b2e-c355a45d2db1" />
 
 
